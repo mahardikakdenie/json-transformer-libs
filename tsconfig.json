@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                       // Set the output JavaScript version
+    "module": "CommonJS",                  // CommonJS module system
+    "declaration": true,                   // Generate .d.ts files
+    "outDir": "./dist",                    // Output directory for compiled code and types
+    "strict": true                         // Enable strict type checking
+  },
+  "include": ["src/**/*"],                 // Include all TypeScript files in src/
+  "exclude": ["node_modules"]              // Exclude node_modules
+}
